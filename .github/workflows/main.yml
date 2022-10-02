@@ -37,7 +37,6 @@ jobs:
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            echo whoami
-            echo "Test echo"
+            cd /var/www/html
 
  
